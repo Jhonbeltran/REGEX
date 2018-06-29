@@ -11,7 +11,7 @@ https://regexr.com/
 
 * Los matches mas pequeños posibles para una linea como esta:
 `csv1,csv2,csv3,csv4,csv5` es: `.+?,` el `?` es para que haya o no haya algo o para que las busquedas sean lo más pequeñas posibles, es decir el primer match... como en este caso.
-
+^ — Negación de una determinada expresión
 \t — Representa un tabulador.
 \r — Representa el “retorno de carro” o “regreso al inicio” o sea el lugar en que la línea vuelve a iniciar.
 \n — Representa la “nueva línea” el carácter por medio del cual una línea da inicio. Es necesario recordar que en Windows es necesaria una combinación de \r\n para comenzar una nueva línea, mientras que en Unix solamente se usa \n y en Mac_OS clásico se usa solamente \r.
