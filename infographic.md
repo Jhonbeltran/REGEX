@@ -13,5 +13,5 @@
 `(\d{2,2}[\-\. ]{0,1}){3,3}` ✔️ Para un número de telefono con formato de tres grupos de digitos
 `\d{2,2}\D?\d{2,2}\D?\d{2,2}`
 `(\d{2,2}\D?){2,2}\d{2,2}`
-`(\d{2,2}\W?){3}`
+`(\d{2,2}\W?){2,2}\d{2,2}`
 ---
