@@ -13,7 +13,7 @@ https://regexr.com/
 
 * Para un número de telefono con formato de tres grupos de digitos `(\d{2,2}[\-\. ]{0,1}){3,3}`
 
-* Inicio de linea `^` final de linea `$`
+* Inicio de linea `^` final de linea `$` estos dos nos encierran lo que se requiere en la expresión que contenga una linea.
 
 * El `^` Es inicio de lines pero tambien es negación
 
