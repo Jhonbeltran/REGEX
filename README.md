@@ -19,6 +19,8 @@ https://regexr.com/
 
 * Encontrar sólo los WARN de un Log del servidor `^\[LOG.*\[WARN\].*$`
 
+* URL: `https?:\/\/[\w\-\.]+\.\w{2,5}\/?\S*`
+
 ***
 
 # Glosario extra
