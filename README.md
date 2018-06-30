@@ -1,16 +1,26 @@
 # platzi_regex
 ***
-# Expresiones Regulares
+## Expresiones Regulares
 
 Son una herramienta muy potente a la hora de procesamiento de cadenas de texto. Al usar las expresiones regulares creamos patrones en donde derminados grupos de caracteres hacen o no coincidencia para un posterior uso de ellos.
 
 https://regexr.com/
 
-
 * Encontrar un número hexadecimal `[a-fA-F0-9]{3,6}`
 
 * Los matches mas pequeños posibles para una linea como esta:
 `csv1,csv2,csv3,csv4,csv5` es: `.+?,` el `?` es para que haya o no haya algo o para que las busquedas sean lo más pequeñas posibles, es decir el primer match... como en este caso.
+
+* Para un número de telefono con formato de tres grupos de digitos `(\d{2,2}[\-\. ]{0,1}){3,3}`
+
+* Inicio de linea `^` final de linea `$`
+
+* El `^` Es inicio de lines pero tambien es negación
+
+***
+
+# Glosario extra
+
 ^ — Negación de una determinada expresión
 \t — Representa un tabulador.
 \r — Representa el “retorno de carro” o “regreso al inicio” o sea el lugar en que la línea vuelve a iniciar.
