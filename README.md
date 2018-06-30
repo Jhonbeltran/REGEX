@@ -21,6 +21,8 @@ https://regexr.com/
 
 * URL: `https?:\/\/[\w\-\.]+\.\w{2,5}\/?\S*`
 
+* Mail: `[\w\-\._]{5,30}\+?[\w]{0,10}@[\w\-\.]+\.\w{2,5}\/?\S*`
+
 ***
 
 # Glosario extra
