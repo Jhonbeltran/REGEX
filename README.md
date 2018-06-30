@@ -17,6 +17,8 @@ https://regexr.com/
 
 * El `^` Es inicio de lines pero tambien es negación
 
+* Encontrar sólo los WARN de un Log del servidor `^\[LOG.*\[WARN\].*$`
+
 ***
 
 # Glosario extra
