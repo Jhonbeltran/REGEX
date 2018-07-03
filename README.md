@@ -29,6 +29,8 @@ https://regexr.com/
 
 * Mapas con 3 palabras: https://map.what3words.com/ (Agregar a mi blog)
 
+* Nombres en Colombia `^([A-ZÁÉÍÓÚ][a-zñáéíóúñ]{2,}\s?){2,5}$`
+
 ***
 
 # Glosario extra
