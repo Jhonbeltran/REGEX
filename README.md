@@ -27,7 +27,7 @@ https://regexr.com/
 
 * Ubicaciones de tipo `-99 12' 34.08"W, 19 34' 56.98"N`usando la expresión `^\-?\d{1,3}\s\d{1,2}'\s\d{1,2}\.\d{2,2}"[WE],\s?\-?\d{1,3}\s\d{1,2}'\s\d{1,2}\.\d{2,2}"[NS]$`
 
-* Mapas con 3 palabras: https://map.what3words.com/
+* Mapas con 3 palabras: https://map.what3words.com/ (Agregar a mi blog)
 
 ***
 
