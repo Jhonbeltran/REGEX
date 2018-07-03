@@ -23,6 +23,12 @@ https://regexr.com/
 
 * Mail: `[\w\-\._]{5,30}\+?[\w]{0,10}@[\w\-\.]+\.\w{2,5}\/?\S*`
 
+* Ubicaciones de tipo  `-99.205646,19.429707,2275.10` usando la expresión `^\-?\d{1,3}\.\d{1,6},\s?\-?\d{1,3}\.\d{1,6},.*$`
+
+* Ubicaciones de tipo `-99 12' 34.08"W, 19 34' 56.98"N`usando la expresión `^\-?\d{1,3}\s\d{1,2}'\s\d{1,2}\.\d{2,2}"[WE],\s?\-?\d{1,3}\s\d{1,2}'\s\d{1,2}\.\d{2,2}"[NS]$`
+
+* Mapas con 3 palabras: https://map.what3words.com/
+
 ***
 
 # Glosario extra
