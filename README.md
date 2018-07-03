@@ -31,7 +31,7 @@ https://regexr.com/
 
 * Nombres en Colombia `^([A-ZÁÉÍÓÚ][a-zñáéíóúñ]{2,}\s?){2,5}$`
 
-* Para el archivo de peliculas `^\d+::([\w\s,\(\)'\.\-&!\/\*\$\?]+:?[\w\s,\(\)'\.\-&!\/\*\$\?]+)\s\((\d\d\d\d)\)::.*$` en donde el primer grupo se puede conservar usando `$1` y el segundo `$2` ...
+* Para el archivo de peliculas `^\d+::([\w\s,\(\)'\.\-&!\/\*\$\?]+:?[\w\s,\(\)'\.\-&!\/\*\$\?]+)\s?\((\d\d\d\d)\)::.*$` en donde el primer grupo se puede conservar usando `$1` y el segundo `$2` ...
 
 ***
 
