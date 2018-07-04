@@ -34,6 +34,9 @@ https://regexr.com/
 * Para el archivo de peliculas `^\d+::([\w\s,\(\)'\.\-&!\/\*\$\?]+:?[\w\s,\(\)'\.\-&!\/\*\$\?]+)\s?\((\d\d\d\d)\)::.*$` en donde el primer grupo se puede conservar usando `$1` y el segundo `$2` ... podemos generar sentencias **sql** haciendo por ejemplo: `insert into movies (year, title) values ($2, '$2'):`
 
 * Para extraer variables en querys GET como esta: `https://www.google.com/search?client=ubuntu&channel=fs&q=comprar+camellos+en+espa%C3%B1a&ie=utf-8&oe=utf-8` usaremos `[\?&](\w+)=([^&\n]+)` y podemos por ejemplo remplazarlos por: `$1 = '$2'`
+
+* La bandera que usamos para que la expresión no sea case sensitive es `/i`
+
 ***
 
 # Glosario extra
