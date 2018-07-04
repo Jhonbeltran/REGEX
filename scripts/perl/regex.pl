@@ -27,5 +27,6 @@ while(<$f>) {
 
 close($f);
 
-print("Se encontraron \n - %d matches\n - %d no matches\ntardo %d segundos\n"
+printf("Se encontraron \n - %d matches\n - %d no matches\ntardo %d segundos\n"
 	, $match, $nomatch, time() - $t);
+printf("VISITANTES GANADORES\n");
