@@ -45,3 +45,10 @@ dominio.com
 
 -99 12' 34.08"W, 19 34' 56.98"N
 -34 54' 32.00"E, -3 21' 67.00"S
+
+https://www.google.com/search
+client = 'ubuntu'
+channel = 'fs'
+q = 'comprar+camellos+en+espa%C3%B1a'
+ie = 'utf-8'
+oe = 'utf-8'
