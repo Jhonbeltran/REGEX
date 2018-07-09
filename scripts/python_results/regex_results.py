@@ -5,7 +5,7 @@ pattern = re.compile(r'^([\d]{4,4})\-\d\d\-\d\d,(.+),(.+),(\d+),(\d+),.*$')
 
 f = open('../../files/results.csv', 'r')
 
-more_that_ten_goals = 0
+total = 0
 
 for line in f:
 	res = re.match(pattern, line)
@@ -17,9 +17,9 @@ for line in f:
 		if (local_score + visitor_score >= 15):
 			print('* {}({}) - {}({})'.format(local, local_score,
 											 visitor, visitor_score))
-			more_that_ten_goals+=1
+			total+=1
 			#break
 
-print(more_that_ten_goals)
+print(total)
 
 f.close()
