@@ -5,7 +5,7 @@ pattern = re.compile(r'^([\d]{4,4})\-\d\d\-\d\d,(.+),(.+),(\d+),(\d+),.*$')
 
 f = open('../../files/results.csv', 'r')
 
-total = 0
+total_matches = 0
 
 for line in f:
 	res = re.match(pattern, line)
@@ -15,12 +15,13 @@ for line in f:
 		visitor = res.group(3)
 		local_score = int(res.group(4))
 		visitor_score = int(res.group(5))
-		if (local_score + visitor_score >= 15):
-			print('*[{}] {}({}) - {}({})'.format(date, local, local_score,
+		goals_number = local_score + visitor_score
+		if (goals_number >= 15):
+			print('*Goals: {} Match => [{}] {}({}) - {}({})'.format(goals_number, date, local, local_score,
 											 visitor, visitor_score))
-			total+=1
+			total_matches+=1
 			#break
 
-print(total)
+print(total_matches)
 
 f.close()
