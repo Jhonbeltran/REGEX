@@ -9,7 +9,7 @@ public class regex {
   public static void main(String[] args) {
     String file = "../../files/results.csv";
     //En java se debe usar \\ en vez de \
-    Pattern pat = Pattern.compile("^2011\\-.*$");
+    Pattern pat = Pattern.compile("^2011\\-.*[zk].*$");
 
     try {
       BufferedReader br = new BufferedReader(new FileReader(file));
