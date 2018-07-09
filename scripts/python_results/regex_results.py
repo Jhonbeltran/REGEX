@@ -10,12 +10,13 @@ total = 0
 for line in f:
 	res = re.match(pattern, line)
 	if(res):
+		date = res.group(1)
 		local = res.group(2)
 		visitor = res.group(3)
 		local_score = int(res.group(4))
 		visitor_score = int(res.group(5))
 		if (local_score + visitor_score >= 15):
-			print('* {}({}) - {}({})'.format(local, local_score,
+			print('*[{}] {}({}) - {}({})'.format(date, local, local_score,
 											 visitor, visitor_score))
 			total+=1
 			#break
